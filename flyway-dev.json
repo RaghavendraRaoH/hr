@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "name": "hr",
+  "id": "62c3efc1-d31f-4884-9b80-a6c4568375d3",
+  "databaseType": "Oracle",
+  "development": {
+    "scriptsFolder": "./schema-model"
+  },
+  "deployment": {
+    "flywayConfFiles": [
+      "./flyway.conf"
+    ]
+  },
+  "schemas": [
+    "HR"
+  ]
+}
